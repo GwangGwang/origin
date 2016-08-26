@@ -127,7 +127,7 @@ var checkKeywordAndGetResponse = function(text) {
 
     // Check explicit commands first
     for (var i = 0; i < explicitCommands.length; i++) {
-        var match = text.trim().match(new RegExp(explicitCommands[i].command));
+        var match = text.trim().match(new RegExp(explicitCommands[i].keyword));
         if (match === null) continue;
         return behaviors[explicitCommands[i].behavior](match, explicitCommands[i].parameter);
     }
@@ -142,9 +142,9 @@ var checkKeywordAndGetResponse = function(text) {
 };
 
 var explicitCommands = [
-    { command: /^김가능!+\s?/, behavior: 'customPick' },
-    { command: /^가능아!+\s?/, behavior: 'customPick' },
-    { command: /^ㄱㄴ!+\s?/, behavior: 'customPick' },
+    { keyword: /^김가능!+\s?/, behavior: 'customPick' },
+    { keyword: /^가능아!+\s?/, behavior: 'customPick' },
+    { keyword: /^ㄱㄴ!+\s?/, behavior: 'customPick' },
     { keyword: /닥쳐*$/, behavior: 'shutup' },
     { keyword: /닥칠래\?*$/, behavior: 'shutup' },
     { keyword: /말해*$/, behavior: 'unshutup' },
