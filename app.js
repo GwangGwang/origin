@@ -30,7 +30,7 @@ api.on('message', function(message)
 
     if (text === null) {
         // 할말없으면 10% 확률로 할말없을 때 하는 말을 말한다
-        if (Math.random() < 0.1) {
+        if (Math.random() < 0.02) {
             var texts = ['ㅇㅎ', ';', ';;', '하악'];
             text = texts[Math.floor(Math.random() * texts.length)];
         } else {
