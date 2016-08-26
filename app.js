@@ -64,9 +64,11 @@ var handleIrregulars = function(text) {
 
 var behaviors = {
 
-    pickOne: function(matchResult, list) {
-        var response = list[Math.floor(Math.random() * list.length)].replace('$', matchResult[1]);
-        return handleIrregulars(response)
+    ajae: function(matchResult, list) {
+		var ajaeGag = [
+            '이상하면 치과 가야지~'
+        ]; 
+        return ajaeGag[list[0]];
     },
     
     humanOut: function(matchResult, params) {
@@ -147,7 +149,10 @@ var keywordList = [
     { keyword: /찬주*$/, behavior: 'humanOut', parameter: ['김찬주 $'] },
     { keyword: /은국*$/, behavior: 'humanOut', parameter: ['박은국 $'] },
     { keyword: /영하*$/, behavior: 'humanOut', parameter: ['안영하 $'] },
-    
+	
+    { keyword: /이상해*$/, behavior: 'ajae', parameter: [0] },
+	{ keyword: /이상할*$/, behavior: 'ajae', parameter: [0] },
+    { keyword: /이상한*$/, behavior: 'ajae', parameter: [0] },
 
     { keyword: /가능\?\S*$/, behavior: 'able' },
     { keyword: /ㄱㄴ\?\S*$/, behavior: 'able' },
