@@ -159,9 +159,9 @@ var keywordList = [
     { keyword: /은국*$/, behavior: 'humanOut', parameter: ['박은국 $'] },
     { keyword: /영하*$/, behavior: 'humanOut', parameter: ['안영하 $'] },
 	
-    { keyword: /이상해*$/, behavior: 'ajae', parameter: [0] },
-	{ keyword: /이상할*$/, behavior: 'ajae', parameter: [0] },
-    { keyword: /이상한*$/, behavior: 'ajae', parameter: [0] },
+    { keyword: /이상해+\s?/, behavior: 'ajae', parameter: [0] },
+	{ keyword: /이상할+\s?/, behavior: 'ajae', parameter: [0] },
+    { keyword: /이상한+\s?/, behavior: 'ajae', parameter: [0] },
 
     { keyword: /가능\?\S*$/, behavior: 'able' },
     { keyword: /ㄱㄴ\?\S*$/, behavior: 'able' },
