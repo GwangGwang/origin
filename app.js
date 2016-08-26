@@ -134,11 +134,11 @@ var explicitCommands = [
 ];
 
 var keywordList = [
-    { keyword: /(\S*)광승\S*$/, behavior: 'humanOut', parameter: ['김광승 $'] },
-    { keyword: /(\S*)형주\S*$/, behavior: 'humanOut', parameter: ['김형주 $'] },
-    { keyword: /(\S*)찬주\S*$/, behavior: 'humanOut', parameter: ['김찬주 $'] },
-    { keyword: /(\S*)은국\S*$/, behavior: 'humanOut', parameter: ['박은국 $'] },
-    { keyword: /(\S*)영하\S*$/, behavior: 'humanOut', parameter: ['안영하 $'] },
+    { keyword: /광승*$/, behavior: 'humanOut', parameter: ['김광승 $'] },
+    { keyword: /형주*$/, behavior: 'humanOut', parameter: ['김형주 $'] },
+    { keyword: /찬주*$/, behavior: 'humanOut', parameter: ['김찬주 $'] },
+    { keyword: /은국*$/, behavior: 'humanOut', parameter: ['박은국 $'] },
+    { keyword: /영하*$/, behavior: 'humanOut', parameter: ['안영하 $'] },
     
 
     { keyword: /가능\?\S*$/, behavior: 'able' },
