@@ -1,0 +1,266 @@
+[TelegramBot]: Failed to get updates from Telegram servers
+{ RequestError: Error: connect ETIMEDOUT 149.154.167.198:443
+    at new RequestError (/Users/erickim/node_modules/telegram-bot-api/node_modules/request-promise/lib/errors.js:11:15)
+    at Request.RP$callback [as _callback] (/Users/erickim/node_modules/telegram-bot-api/node_modules/request-promise/lib/rp.js:60:32)
+    at self.callback (/Users/erickim/node_modules/request/request.js:187:22)
+    at emitOne (events.js:101:20)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (/Users/erickim/node_modules/request/request.js:813:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at TLSSocket.socketErrorListener (_http_client.js:308:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1272:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'RequestError',
+  message: 'Error: connect ETIMEDOUT 149.154.167.198:443',
+  cause: 
+   { Error: connect ETIMEDOUT 149.154.167.198:443
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1081:14)
+     code: 'ETIMEDOUT',
+     errno: 'ETIMEDOUT',
+     syscall: 'connect',
+     address: '149.154.167.198',
+     port: 443 },
+  error: 
+   { Error: connect ETIMEDOUT 149.154.167.198:443
+       at Object.exports._errnoException (util.js:1026:11)
+       at exports._exceptionWithHostPort (util.js:1049:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1081:14)
+     code: 'ETIMEDOUT',
+     errno: 'ETIMEDOUT',
+     syscall: 'connect',
+     address: '149.154.167.198',
+     port: 443 },
+  options: 
+   { proxy: null,
+     method: 'GET',
+     json: true,
+     formData: { timeout: 0, offset: 0, limit: 50 },
+     uri: 'https://api.telegram.org/bot265841140:AAHsi5oowfGt5vtkenclNFA5xsHnvfHcvdo/getUpdates',
+     callback: undefined,
+     transform: undefined,
+     simple: true,
+     resolveWithFullResponse: false },
+  response: undefined }
+{ message_id: 1783,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242028,
+  text: '가능이는 결정이보다 말이 많음' }
+{ message_id: 1784,
+  from: 
+   { id: 245112032,
+     first_name: 'Young',
+     last_name: 'An',
+     username: 'younghaan' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242030,
+  text: 'ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ' }
+{ message_id: 1785,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242035,
+  text: '미친;' }
+{ message_id: 1786,
+  from: 
+   { id: 157348498,
+     first_name: 'James',
+     last_name: 'Kim',
+     username: 'appiejam' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242044,
+  text: ';;;' }
+{ message_id: 1787,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242045,
+  text: '방금은 사람이였으면 때릴뻔' }
+{ message_id: 1788,
+  from: 
+   { id: 157348498,
+     first_name: 'James',
+     last_name: 'Kim',
+     username: 'appiejam' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242052,
+  text: '진짜 사람같았음 방금은;' }
+{ message_id: 1789,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242085,
+  text: '결정이 코딩잘한듯?' }
+{ message_id: 1790,
+  from: { id: 265841140, first_name: '김가능', username: 'GaneungBot' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242086,
+  text: 'ㅇㅎ' }
+{ message_id: 1791,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242101,
+  text: '가능이 너무 말많음;' }
+{ message_id: 1792,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242102,
+  text: '닥쳐' }
+{ message_id: 1793,
+  from: { id: 265841140, first_name: '김가능', username: 'GaneungBot' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242104,
+  text: '알았어요.. 잘있어요' }
+{ message_id: 1794,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242114,
+  text: '잘있어요 머임 ㅋㅋ' }
+{ message_id: 1795,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242116,
+  text: '어디 감?' }
+{ message_id: 1796,
+  from: 
+   { id: 259048519,
+     first_name: 'Eric',
+     last_name: 'Kim',
+     username: 'gwanggwang' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242152,
+  text: '닥치러감' }
+{ message_id: 1797,
+  from: 
+   { id: 157348498,
+     first_name: 'James',
+     last_name: 'Kim',
+     username: 'appiejam' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242161,
+  text: '이제' }
+{ message_id: 1798,
+  from: 
+   { id: 157348498,
+     first_name: 'James',
+     last_name: 'Kim',
+     username: 'appiejam' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242167,
+  text: '아재개그 넣어도됨?' }
+{ message_id: 1799,
+  from: 
+   { id: 259048519,
+     first_name: 'Eric',
+     last_name: 'Kim',
+     username: 'gwanggwang' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242171,
+  text: ';;' }
+{ message_id: 1800,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242210,
+  text: '결정이' }
+{ message_id: 1801,
+  from: 
+   { id: 250366059,
+     first_name: 'Chanjoo',
+     last_name: 'Kim',
+     username: 'chanjook' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242215,
+  text: '결정이' }
+{ message_id: 1802,
+  from: 
+   { id: 248993785,
+     first_name: 'Daniel',
+     last_name: 'Park',
+     username: 'silversoup' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242416,
+  text: '다은이가' }
+{ message_id: 1803,
+  from: 
+   { id: 248993785,
+     first_name: 'Daniel',
+     last_name: 'Park',
+     username: 'silversoup' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242429,
+  text: '놀자해서 나 오늘 님집 놀러갈거같다고하니까' }
+{ message_id: 1804,
+  from: 
+   { id: 248993785,
+     first_name: 'Daniel',
+     last_name: 'Park',
+     username: 'silversoup' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242433,
+  text: '자기도 보드게임하고싶다고' }
+{ message_id: 1805,
+  from: 
+   { id: 248993785,
+     first_name: 'Daniel',
+     last_name: 'Park',
+     username: 'silversoup' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242436,
+  text: '껴달라하는데' }
+{ message_id: 1806,
+  from: 
+   { id: 248993785,
+     first_name: 'Daniel',
+     last_name: 'Park',
+     username: 'silversoup' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242437,
+  text: '고?' }
+{ message_id: 1807,
+  from: 
+   { id: 259048519,
+     first_name: 'Eric',
+     last_name: 'Kim',
+     username: 'gwanggwang' },
+  chat: { id: -170492567, title: '변태방', type: 'group' },
+  date: 1472242451,
+  text: ';' }

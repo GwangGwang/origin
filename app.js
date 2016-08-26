@@ -114,6 +114,11 @@ var behaviors = {
             shutUp = false;
             return texts[Math.floor(Math.random() * texts.length)];
         }
+    },
+    tonight: function() {
+        var texts = ['석양이.. 진다', '이것도 너프해 보시지', 'NERF THIS!!!', '하늘에서 정의가 빗발친다', '고요를 경험하시오', 'Experience tranquility', 'Pass into the Iris'
+                    , '드랍더 비트!', '쀼삡쀼 뿌삡'];
+        return texts[Math.floor(Math.random() * texts.length)];
     }
 };
 
@@ -140,6 +145,9 @@ var explicitCommands = [
     { command: /^김가능!+\s?/, behavior: 'customPick' },
     { command: /^가능아!+\s?/, behavior: 'customPick' },
     { command: /^ㄱㄴ!+\s?/, behavior: 'customPick' },
+    { keyword: /닥쳐*$/, behavior: 'shutup' },
+    { keyword: /닥칠래\?*$/, behavior: 'shutup' },
+    { keyword: /말해*$/, behavior: 'unshutup' },
 ];
 
 var keywordList = [
@@ -148,13 +156,12 @@ var keywordList = [
     { keyword: /찬주*$/, behavior: 'humanOut', parameter: ['김찬주 $'] },
     { keyword: /은국*$/, behavior: 'humanOut', parameter: ['박은국 $'] },
     { keyword: /영하*$/, behavior: 'humanOut', parameter: ['안영하 $'] },
-    
 
     { keyword: /가능\?\S*$/, behavior: 'able' },
     { keyword: /ㄱㄴ\?\S*$/, behavior: 'able' },
 
-    { keyword: /닥쳐*$/, behavior: 'shutup' },
-    { keyword: /닥칠래\?*$/, behavior: 'shutup' },
-    { keyword: /말해*$/, behavior: 'unshutup' },
 
+    { keyword: /ㅇㄴㅂ*$/, behavior: 'overwatch' },
+    { keyword: /ㅇㅂㅇㅊ*$/, behavior: 'overwatch' },
+    { keyword: /고급시계*$/, behavior: 'overwatch' },
 ];
