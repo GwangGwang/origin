@@ -19,6 +19,7 @@ api.on('message', function(message)
 
     var text = null;
     if (message) {
+        console.log(message);
         if (!shutUp) {
             text = checkKeywordAndGetResponse(message.text);
         } else {
